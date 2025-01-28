@@ -19,8 +19,8 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          alireza7/x-ui
-          ghcr.io/alireza0/x-ui
+          megasoheilsh/x-ui
+          ghcr.io/megasoheilsh/x-ui
         tags: |
           type=ref,event=branch
           type=ref,event=tag
