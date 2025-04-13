@@ -429,7 +429,7 @@ class xHTTPStreamSettings extends XrayCommonClass {
         path = '/',
         host = '',
         headers = [],
-        scMaxBufferedPosts = 30,
+        scMaxBufferedPosts = 1,
         scMaxEachPostBytes = "1000000",
         noSSEHeader = false,
         xPaddingBytes = "100-1000",
